@@ -16,3 +16,10 @@ La primera vez que usamos Git en un ordenador debemos indicarle qué usuario e e
 git config --global user.name <usuario>
 git config --global user.email <email>
 ```
+
+### Node.js
+
+Os paso el link para instalar Node Version Manager (PARA WINDOWS). Para poder tener varias versiones de Node a la vez. 
+
+[Link de NVM para windows](https://github.com/coreybutler/nvm-windows/releases)
+
