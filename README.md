@@ -23,3 +23,13 @@ Os paso el link para instalar Node Version Manager (PARA WINDOWS). Para poder te
 
 [Link de NVM para windows](https://github.com/coreybutler/nvm-windows/releases)
 
+## Atajos y Settings
+
+1. Para envolver etiquetas con otras
+   1. Selecciona lo que quieres envolver
+   2. Command palette --> Wrap with abbreviaton
+   3. escribe la etiqueta que envuelve
+   4. Enter
+   5. Recomendación --> haz un atajo de teclado
+2. 
+
