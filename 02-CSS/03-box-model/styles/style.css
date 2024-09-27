@@ -166,3 +166,30 @@ body {
 }
 
 
+
+/* truco para centrar */
+
+.centrar-1{
+  border: 2px solid black;
+  text-align: center;
+}
+
+.centrar-1 span {
+  background-color: tomato;
+}
+
+.center-2 {
+  margin-top: 20px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.center-2 div {
+  background-color: gold;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-inline: auto; 
+}
+
