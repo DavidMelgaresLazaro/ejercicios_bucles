@@ -1,0 +1,168 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+input, button {
+  font: inherit;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+
+/* display */
+
+.none {
+  display: none;
+}
+
+.inline {
+  display: inline;
+}
+
+/* width y height */
+
+.padre-1 {
+  background-color: gold;
+  /* width: 200px; */
+  /* height: 50px; */
+}
+
+.hijo-1 {
+  background-color: tomato;
+  width: 50%;
+  height: 70%;
+}
+
+.container {
+  color: white;
+  background-color: indigo;
+  width: 80%;
+  max-width: 800px;
+  min-width: 300px;
+}
+
+.link-inline {
+  background-color: tomato;
+  width: 300px; /*! No te deja*/
+  height: 100px  /*! No te deja*/
+}
+
+/* padding */
+
+.caja-padding {
+  background-color: gold;
+
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+
+  /* Shorthand */
+
+  padding: 5px;
+  padding: 5px 20px;
+  padding: 5px 10px 20px;
+  padding: 5px 10px 20pºx 0px;
+
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.al-reves span {
+  margin-inline-start: 30px;
+}
+
+
+
+/* border */
+.rosa {
+  background-color: hotpink;
+}
+
+.caja-border {
+  border-color: black;
+  border-style: solid;
+  border-style: dotted;
+  border-style: dashed;
+  border-width: 50px;
+
+  border-radius: 10px 20px;
+
+  border: 10px solid indigo;
+}
+
+/* margin */
+
+.caja-margin {
+  background-color: gold;
+  margin-bottom: 20px;
+}
+
+.caja-margin-2 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: tomato;
+
+}
+
+.collapse-padre {
+  /* border: 1px solid black; */
+  padding-top: 1px;
+  background-color: gold;
+}
+
+.collapse-hijo {
+  margin-top: 20px;
+}
+
+/* outline */
+
+.caja-outline {
+  /* background-color: tomato; */
+  padding: 5px;
+  border: 2px solid black;
+
+  outline: 3px solid red;
+  outline-offset: 0px;
+}
+
+/* box-sizing */
+
+.caja-sizing-1 {
+  background-color: gold;
+  width: 200px;
+  border: 2px solid black;
+  padding: 5px;
+  margin-bottom: 5px;
+
+  box-sizing: content-box;
+}
+.caja-sizing-2 {
+  width: 200px;
+  border: 2px solid black;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: royalblue;
+
+  box-sizing: border-box;
+}
+
+
+
+/* overflow */
+
+.caja-overflow {
+  border: 3px solid black;
+  padding: 5px;
+  height: 90px;
+
+  overflow-y: scroll;
+  overflow-y: auto;
+  overflow-y: hidden;
+    
+}
+
+

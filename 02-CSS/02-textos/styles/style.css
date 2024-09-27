@@ -1,0 +1,86 @@
+
+
+.popurri {
+  font-family: 'Times New Roman', serif;
+  font-family: 'Arial', sans-serif;
+  font-family: 'Courier New', monospace;
+
+  font-size: 16px; /* por defecto */
+  font-size: 24px;
+
+  font-weight: normal;
+  font-weight: bold;
+
+
+  
+  font-style: italic;
+  font-style: normal;
+
+  text-transform: lowercase;
+  text-transform: uppercase;
+  text-transform: capitalize;
+
+  text-decoration: none;
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-decoration: underline red;
+  text-decoration: underline red dotted;
+  text-decoration: underline red dashed;
+  text-decoration: underline red double;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+
+.balance-title {
+  text-wrap: balance;
+}
+
+.balance-p {
+  text-wrap: pretty;
+}
+
+
+
+.fuente-google {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-weight: 900;
+}
+
+
+
+.fuente-descargada {
+  font-family: 'Jedi', sans-serif;
+}
+
+
+
+.fuente-descargada-2 {
+  font-family: 'Taviraj', serif;
+  font-style: italic;
+}
+
+
+
+.fuente-variable {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-weight: 100;
+  font-weight: 900;
+  font-weight: 785;
+}

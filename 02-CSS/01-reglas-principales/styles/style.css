@@ -1,0 +1,95 @@
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+/** CSS = Cascade Style Sheet */
+/*
+  Sintaxis de una regla CSS
+
+  selector {
+    propiedad: valor;
+    propiedad: valor;
+  }
+
+
+*/
+
+
+
+
+
+/*! Primera NORMA: Lo que está más abajo gana a lo que está más arriba  */
+
+h1 {
+  color: red;
+
+  color: blue;
+}
+
+h1 {
+  color: green;
+}
+
+
+/*! Segunda NORMA: Lo que es MÁS ESPECÍFICO, gana a lo que es MENOS ESPECÍFICO  */
+
+
+/* Niveles de especificidad de menor a mayor
+
+  * (comodín)
+
+  etiqueta
+
+  .class o  [atributos]
+
+  #id
+
+  style="color: red;"
+
+  !important
+
+  style="color:blue !important"
+
+   id     class y [] :pseudo     etiquetas
+  ( 0            0                  0 )
+
+
+
+
+*/
+
+/* #titulazo {
+  color: blue !important
+}
+
+[title] {
+  color: purple;
+}
+
+.titulo {
+  color: green;
+} */
+
+
+h3.amarillo {
+  color: yellow;
+}
+
+/* Juntar selectores */
+.amarillo {
+  color: gold;
+}
+
+
+
+
+
+
+
+
