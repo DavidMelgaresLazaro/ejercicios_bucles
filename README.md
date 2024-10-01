@@ -39,5 +39,11 @@ Os paso el link para instalar Node Version Manager (PARA WINDOWS). Para poder te
 1. Placeholder de fotos
    1. https://picsum.photos/id/15/16
    2. [aquí tenéis el link](https://picsum.photos/images) con los id de cada foto
-2. [Frontend Mentor](https://www.frontendmentor.io/) --> Página de Challenges para duplicar diseños y intentar hacerlos funcionar como te dicen.
+2. [Codepen](https://codepen.io/) --> Página para guardarte códigos que hagas y para buscar ejemplos de otra gente.
+
+
+## Challenges
+
+1. [Frontend Mentor](https://www.frontendmentor.io/) --> Página de Challenges para duplicar diseños y intentar hacerlos funcionar como te dicen.
+2. [Css Battle](https://cssbattle.dev/) --> Para aprender CSS a tope. 🤯🤯
 
