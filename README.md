@@ -54,7 +54,8 @@ Os paso el link para instalar Node Version Manager (PARA WINDOWS). Para poder te
 
 ## Juegos
 
-1. [Flexbox Froggy](https://flexboxfroggy.com/#es)
-2. [Flexbox Zombies](https://mastery.games/post/flexboxzombies2/)
-3. [Flexbox Adventure](https://codingfantasy.com/games/flexboxadventure)
+1. [Selectores CSS](https://flukeout.github.io/)
+2. [Flexbox Froggy](https://flexboxfroggy.com/#es)
+3. [Flexbox Zombies](https://mastery.games/post/flexboxzombies2/)
+4. [Flexbox Adventure](https://codingfantasy.com/games/flexboxadventure)
 

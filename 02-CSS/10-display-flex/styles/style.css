@@ -120,9 +120,9 @@ h1 {
 
   /*! Por defecto flex NO PERMITE HACER WRAP  */
 
-  flex-wrap: nowrap; /* por defecto */
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /** por defecto */
   flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
 
 
   /* alinear las filas */
