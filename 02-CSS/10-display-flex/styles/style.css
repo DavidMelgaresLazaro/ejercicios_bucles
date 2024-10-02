@@ -2,6 +2,15 @@ body {
   font-family: 'Arial';
 }
 
+details {
+  margin-block: 1rem;
+}
+
+details summary {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
 .container {
   width: 80%;
   max-width: 800px;
@@ -99,4 +108,155 @@ h1 {
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+}
+
+/** Varias filas  */
+
+
+.padre-2 {
+  height: 200px;
+  display: flex;
+  align-items: start;
+
+  /*! Por defecto flex NO PERMITE HACER WRAP  */
+
+  flex-wrap: nowrap; /* por defecto */
+  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+
+
+  /* alinear las filas */
+  align-content: flex-start;
+  align-content: flex-end;
+  align-content: stretch; /* por defecto */
+  align-content: center;
+
+}
+
+.padre-2 .hijo {
+  width: 150px;
+}
+
+
+/* * order */
+
+.padre-3 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/*! Todas las cajas hijo tienen por defecto un ORDER = 0  */
+/** Las cajas se ordenarán de orders más pequeños a más grandes  */
+
+.padre-3 .hijo-4 {
+  order: 1;   /* -1  0  0  0  */
+}
+
+.padre-3 .hijo-3 {
+  order: 4;   
+}
+
+.padre-3 .hijo-2 {
+  order: 3; 
+}
+
+.padre-3 .hijo-1 {
+  order: 2;   
+}
+
+/** flex-grow  */
+
+.padre-4 {
+  display: flex;
+}
+
+.padre-4 .hijo-3 {
+  flex-grow: 0; /* por defecto */
+  flex-grow: 2;
+}
+
+.padre-4 .hijo-1 {
+  flex-grow: 5;
+}
+
+/* .padre-4 .hijo {
+  flex-grow: 1;
+} */
+
+/* * flex-shrink */
+
+.padre-5 {
+  display: flex;
+}
+
+.padre-5 .hijo {
+  width: 150px;
+}
+
+
+.padre-5 .hijo-2 {
+  flex-shrink: 1; /* por defecto */
+  flex-shrink: 0;
+}
+
+.padre-5 .hijo-3 {
+  flex-shrink: 3;
+}
+
+
+/** flex-basis */
+/*! Es width si estamos en ROW y height si estamos en column  */
+
+.padre-6 {
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+
+  /* flex-direction: column; */
+}
+
+.padre-6 .hijo {
+  flex-basis: 150px;
+  width: 100px;
+}
+
+/** align-self */
+
+.padre-7 {
+  /* height: 200px; */
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.padre-7 .hijo-4 {
+  align-self: flex-start;
+  align-self: center;
+  align-self: flex-end;
+}
+
+
+/** Truquito margin: auto  */
+
+.padre-8  {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.padre-8 .hijo-2 {
+  /* margin-right: auto; */
+}
+
+.padre-8 .hijo-3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.float::after {
+  content: '';
+  clear: both;
+  display:  block;
 }

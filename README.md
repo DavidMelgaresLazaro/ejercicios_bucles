@@ -42,8 +42,19 @@ Os paso el link para instalar Node Version Manager (PARA WINDOWS). Para poder te
 2. [Codepen](https://codepen.io/) --> Página para guardarte códigos que hagas y para buscar ejemplos de otra gente.
 
 
+## Teoría
+
+1. [CSS flexbox de CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+
 ## Challenges
 
 1. [Frontend Mentor](https://www.frontendmentor.io/) --> Página de Challenges para duplicar diseños y intentar hacerlos funcionar como te dicen.
 2. [Css Battle](https://cssbattle.dev/) --> Para aprender CSS a tope. 🤯🤯
+
+## Juegos
+
+1. [Flexbox Froggy](https://flexboxfroggy.com/#es)
+2. [Flexbox Zombies](https://mastery.games/post/flexboxzombies2/)
+3. [Flexbox Adventure](https://codingfantasy.com/games/flexboxadventure)
 
