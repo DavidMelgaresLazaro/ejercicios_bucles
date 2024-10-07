@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/reset.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <!-- <link rel="stylesheet" href="./styles/reset.css"> -->
+  <!-- <link rel="stylesheet" href="./styles/style.css"> -->
+  <link rel="stylesheet" href="./styles/small-components.css">
   <title>Componente Formulario</title>
 </head>
 <body>
   
-  
+<!--   
     <section class="mortgage-calculator">
       <form class="form">
         <header class="title-box">
@@ -84,6 +85,36 @@
   
         </div>
       </div>
+    </section> -->
+
+
+    <section class="wrapper">
+      <div class="left">
+
+        <label class="input-combo">
+          Mortgage amount
+          <div class="input-group">
+            <span>€</span>
+            <input type="text" value="300.000">
+          </div>
+        </label>
+
+        
+        <div class="two-rows">
+          <label class="mortgage-type">
+            <input type="radio" name="type">
+            <span>Repayment</span>
+          </label>
+          <label class="mortgage-type">
+            <input type="radio" name="type">
+            <span>Interest Only</span>
+          </label>
+        </div>
+
+
+
+      </div>
+      <div class="right">Derecha</div>
     </section>
   
   
