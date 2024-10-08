@@ -5,6 +5,9 @@
 1. **Material Icon** --> Tema de iconos para saber rápidamente qué es cada archivo.
 2. **Black Panther Theme** --> El tema de color que uso yo
 3. **Markdown All in One** --> Para ayudarte con los textos en Markdown
+4. **Quokka.js** 👉 Para ejecutar javascript mienytras escribes.
+   1. Hay que lanzarlo en el archivo JS que quieras con la paleta de comandos `Ctrl + Shift + P` y Ejecutar `Quokka: Start on current file`
+5. **Template String Converter** 👉 Para convertir automáticamente un string en Template literal (backticks) con solo poner ${}
 
 
 ## Configuraciones
@@ -59,3 +62,11 @@ Os paso el link para instalar Node Version Manager (PARA WINDOWS). Para poder te
 3. [Flexbox Zombies](https://mastery.games/post/flexboxzombies2/)
 4. [Flexbox Adventure](https://codingfantasy.com/games/flexboxadventure)
 
+
+
+## TIPS Clean Code
+
+1. Siempre que crees una variable que guarde un boolean ponle un nombre con un verbo
+   1. `const isAdmin = true`
+   2. `const isConntected = false` 
+2. Cuando guardes un array en una variable ponle un nombre en PLURAL 
