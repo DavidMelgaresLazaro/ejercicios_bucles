@@ -8,6 +8,8 @@
 4. **Quokka.js** 👉 Para ejecutar javascript mienytras escribes.
    1. Hay que lanzarlo en el archivo JS que quieras con la paleta de comandos `Ctrl + Shift + P` y Ejecutar `Quokka: Start on current file`
 5. **Template String Converter** 👉 Para convertir automáticamente un string en Template literal (backticks) con solo poner ${}
+6. **Multiple cursor case preserve** 👉 Cuando haces multicursor y escribes en varios sitios, te mantiene las mayúsculas y minúsculas de las palabras seleccionadas.
+7. **PDF Viewer de Mathematic Inc** 👉 Visor de pdf
 
 
 ## Configuraciones
@@ -52,8 +54,16 @@ Os paso el link para instalar Node Version Manager (PARA WINDOWS). Para poder te
 
 ## Challenges
 
+### CSS
+
 1. [Frontend Mentor](https://www.frontendmentor.io/) --> Página de Challenges para duplicar diseños y intentar hacerlos funcionar como te dicen.
 2. [Css Battle](https://cssbattle.dev/) --> Para aprender CSS a tope. 🤯🤯
+
+### JavaScript
+
+1. [Advent of JS](https://www.adventofjs.com/) 👉 24 Challenges por año. REALISTAS
+2. [Advent JS Español](https://adventjs.dev/) 👉 24 challenges menos realistas, muy interesantes para aprender funciones, filtros, maps, etc. de JavaScript.
+3. [Codewars](https://www.codewars.com/) 👉 Challenges de miles de lenguajes que puedes filtrar por tipo de ejercicio.
 
 ## Juegos
 

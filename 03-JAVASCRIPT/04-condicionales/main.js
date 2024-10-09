@@ -250,6 +250,9 @@ if (true) {
 }
 
 gato1 = 'Tom';
+console.log(gato1);
+
+
 
 // gato2 = 'Garfield'; //! no existe
 
@@ -261,6 +264,43 @@ console.log(gato1);
 console.log(perro1);
 console.log(perro2);
 
+
+
+//*  Switch
+
+// 
+
+const color = 'rojo';
+
+
+if (color === 'rojo') console.log('💖');
+else if (color === 'amarillo') console.log('🌞');
+else if (color === 'verde') console.log('🌿');
+else console.error('No has puesto un color válido');
+
+
+
+
+switch (color) {
+  case 'rojo': {
+    console.log('💖');   
+    break; 
+  }
+  case 'amarillo': {
+    console.log('🌞');
+    break;
+  }
+  case 'verde': {
+    console.log('🌿');
+    break;
+  }
+  default: {
+    console.log('No has puesto un color válido');    
+  }
+}
+
+
+//===================================================
 
 
 
